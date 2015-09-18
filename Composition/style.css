@@ -1,3 +1,172 @@
 body {
-    background-color: blue;
+    margin:0px;
+    padding:0px;
+    background-color: white
+    ;
+}
+
+#lineone {
+    font-size: 200px;
+    letter-spacing: 50px;
+    text-align: center;
+    color: black
+}
+
+.one:hover{
+    color:red;
+    animation: 1s multicolor;
+}
+@keyframes multicolor {
+    0% {
+        color: #000;
+    }
+    33% {
+        color: #FF0000;
+    }
+    66% {
+        color: #0000FF;
+    }
+    100% {
+        color: #FFF;
+    }
+
+}
+
+    
+
+#linetwo {
+    font-size:180px;
+    letter-spacing: 20px;
+    text-align: center;
+    
+}
+
+.two {
+    font-size:30px;
+    letter-spacing:5px;
+}
+
+.twoo{
+    color:red;
+    
+
+}
+
+    
+#linethree{
+    font-size: 160px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.three{
+    font-size: 30px;
+    letter-spacing:5px;
+
+}
+
+.three:hover{
+    font-size: 80px;
+    color:yellow;
+   
+}
+
+
+#linefour{
+    font-size:140px;
+    letter-spacing:40px;
+    text-align:center;
+    
+
+}
+
+
+#linefour:hover{
+    color:yellow;
+}
+
+
+
+.four {
+    font-size:30px;
+    letter-spacing:5px;
+}
+
+
+
+#linefive{
+  font-size:120px;
+  letter-spacing:40px;
+  text-align:center;
+}
+
+#linefive:hover{
+    font-size:200px;
+    animation: 2s multicolor;
+}
+@keyframes multicolor {
+    0% {
+        color: red;
+    }
+    33% {
+        color: white;
+    }
+    66% {
+        color: yellow;
+    }
+    100% {
+        color: green;
+    }
+
+}
+
+#linesix{
+    font-size:100px;
+    letter-spacing:20px;
+    text-align:center;
+    
+}
+
+#lineseven{
+    font-size:80px;
+    letter-spacing:20px;
+    text-align:center;
+}
+
+#lineseven:hover{
+    font-size:20px;
+}
+
+
+#lineeight{
+   font-size:60px;
+   letter-spacing:20px;
+   text-align:center;
+}
+
+.eight{
+    font-size:15px;
+    letter-spacing:5px;
+}
+
+
+#linenine{
+    font-size:40px;
+    letter-spacing:20px;
+    text-align:center;
+}   
+
+#lineten{
+    font-size:40px;
+    letter-spacing:20px;
+    text-align:center;
+} 
+
+
+.twelve{
+    font-size:80px;
+}
+
+.twelve:hover{
+    color:yellow;
 }
