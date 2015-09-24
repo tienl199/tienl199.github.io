@@ -1,7 +1,7 @@
 
 .wrapper{
     width:3000px;
-    height:auto;
+    height:2000px;
     margin:0 auto;
     padding:260px;
 }
@@ -56,6 +56,16 @@
     
 }
 
+.thinrect{
+    height:322.6px;
+    width:33.958px;
+    border:solid 2px blue;
+    margin-left:16px;
+    margin-top:60px;
+    position:absolute;
+    
+}
+
 .bottomunit{
     height:1252px;
     width:839.311px;
@@ -63,15 +73,53 @@
     border-top-style:none;
     border-left-style:none;
     display:inline-block;
+    
 }
 
 .clear{
     clear:both;
 }
 
+.recttwo{
+    height:161.3px;
+    width:356.558px;
+    border:solid 2px blue;
+    position:relative;
+    margin-top:1050px;
+    margin-left:100px;
+}
+
+.table{
+    height:500.839px;
+    width:322.6px;
+    border:solid 2px blue;
+    margin-left:500px;
+    margin-top:-505px;
+   
+}
+
+.quartercircle{
+    width: 381px;
+    height:381px;
+    border:solid 2px blue;
+    border-radius: 380px 0 0 0;
+    position:relative;
+    margin-top:-1000px;
+    margin-left:458.5px;
+    border-right-style:none;
+}
+
+.whiteline{
+    height:377.5px;
+    width:0px;
+    margin-left:838px;
+    margin-top:-382px;
+    border:solid 3px white;
+}
+
 .topunit{
-    height:227px;
-    width:838px;
+    height:260px;
+    width:839px;
     border:solid 2px blue;
     border-bottom-style:none;
     margin-left:1654px;
@@ -79,3 +127,33 @@
     
 }
 
+.sink{
+    width:198.088px;
+    height:198.088px;
+    border:solid 2px blue;
+    margin-left:138.257px;
+    margin:100px;
+    display:inline-block;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:solid 2px blue;
+    margin:45px;
+}
+
+.boxthree{
+    width:200px;
+    height:150px;
+    border:solid 2px blue;
+    margin:100px;
+    display:inline-block;
+}
+
+.test{
+    height:150px;
+    width:150px;
+    border:solid 2px red;
+}
