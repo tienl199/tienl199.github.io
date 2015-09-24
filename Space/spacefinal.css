@@ -42,6 +42,10 @@
 
 }
 
+.DustIcon:hover{
+    color:blue;
+   
+}
 
 .boxone{
     height:321.646px;
@@ -175,10 +179,4 @@
     border:solid 2px blue;
     margin:100px;
     display:inline-block;
-}
-
-..test{
-    height:150px;
-    width:150px;
-    border:solid 2px red;
 }
