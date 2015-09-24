@@ -1,12 +1,37 @@
 
 .wrapper{
-    width:3000px;
-    height:2000px;
+    width:2800px;
+    height:1800px;
     margin:0 auto;
     padding:260px;
 }
 
+.width{
+    height:30.045px;
+    width:300.154px;
+    border:solid 2px blue;
+    font-family:"Minion Pro", Serif,;
+    font-size:30px;
+    text-align:center;
+    color:blue;
+    margin-left:1108.829px;
+    margin-top:160px;
+    position:absolute;
+}
 
+.height{
+    height:30.045px;
+    width:300.154px;
+    border:solid 2px blue;
+    font-family:"Minion Pro", Serif;
+    font-size:30px;
+    text-align:center;
+    color:blue;
+    transform:rotate(-90deg);
+    position:absolute;
+    margin-left:200px;
+    margin-top:850px;
+}
 .leftunit{
     height:1250.367px;
     width:1207.111px;
@@ -152,7 +177,7 @@
     display:inline-block;
 }
 
-.test{
+..test{
     height:150px;
     width:150px;
     border:solid 2px red;
