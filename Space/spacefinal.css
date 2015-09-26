@@ -1,57 +1,54 @@
 
 .wrapper{
     width:2800px;
-    height:1800px;
+    height:auto;
     margin:0 auto;
-    padding:260px;
 }
 
 .width{
-    height:30.045px;
-    width:300.154px;
-    border:solid 2px blue;
+    height:30px;
+    width:300px;
+    border:solid 2px #0000FF;
     font-family:"Minion Pro", Serif,;
     font-size:30px;
     text-align:center;
     color:blue;
-    margin-left:1108.829px;
+    margin-left:1108px;
     margin-top:160px;
     position:absolute;
 }
 
 .height{
-    height:30.045px;
-    width:300.154px;
-    border:solid 2px blue;
+    height:30px;
+    width:300px;
+    border:solid 2px #0000FF;
     font-family:"Minion Pro", Serif;
     font-size:30px;
     text-align:center;
-    color:blue;
+    color:#0000FF;
     transform:rotate(-90deg);
     position:absolute;
     margin-left:200px;
     margin-top:850px;
 }
+
 .leftunit{
-    height:1250.367px;
-    width:1207.111px;
-    border: solid 2px blue;
+    height:1250px;
+    width:1207px;
+    border: solid 2px #0000FF;
     margin-left:447.09px;
     border-right-style:none;
     float: left;
 
 }
 
-.DustIcon:hover{
-    color:blue;
    
-}
 
 .boxone{
-    height:321.646px;
-    width:321.646px;
+    height:321px;
+    width:321px;
     display:inline-block;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     position:relative;
     padding:19px;
     margin:16px;
@@ -62,10 +59,10 @@
 
 
 .boxtwo{
-    height:321.646px;
-    width:321.646px;
+    height:321px;
+    width:321px;
     display:inline-block;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     position:relative;
     padding:19px;
     margin:16px;
@@ -75,20 +72,20 @@
 }
 
 .rect{
-    height:322.6px;
-    width:667.839px;
-    border:solid 2px blue;
-    margin-left:454px;
+    height:322px;
+    width:667px;
+    border:solid 2px #0000FF;
+    left:454px;
     position:relative;
-    top:60px;
+    top:64px;
     
     
 }
 
 .thinrect{
-    height:322.6px;
-    width:33.958px;
-    border:solid 2px blue;
+    height:322px;
+    width:33px;
+    border:solid 2px #0000FF;
     margin-left:16px;
     margin-top:60px;
     position:absolute;
@@ -97,8 +94,8 @@
 
 .bottomunit{
     height:1252px;
-    width:839.311px;
-    border:solid 2px blue;
+    width:839px;
+    border:solid 2px #0000FF;
     border-top-style:none;
     border-left-style:none;
     display:inline-block;
@@ -110,18 +107,18 @@
 }
 
 .recttwo{
-    height:161.3px;
-    width:356.558px;
-    border:solid 2px blue;
+    height:161px;
+    width:356px;
+    border:solid 2px #0000FF;
     position:relative;
     margin-top:1050px;
     margin-left:100px;
 }
 
 .table{
-    height:500.839px;
-    width:322.6px;
-    border:solid 2px blue;
+    height:500px;
+    width:322px;
+    border:solid 2px #0000FF;
     margin-left:500px;
     margin-top:-505px;
    
@@ -130,16 +127,16 @@
 .quartercircle{
     width: 381px;
     height:381px;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     border-radius: 380px 0 0 0;
     position:relative;
     margin-top:-1000px;
-    margin-left:458.5px;
+    margin-left:458px;
     border-right-style:none;
 }
 
 .whiteline{
-    height:377.5px;
+    height:377px;
     width:0px;
     margin-left:838px;
     margin-top:-382px;
@@ -149,7 +146,7 @@
 .topunit{
     height:260px;
     width:839px;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     border-bottom-style:none;
     margin-left:1654px;
     background-color:white;
@@ -157,10 +154,10 @@
 }
 
 .sink{
-    width:198.088px;
-    height:198.088px;
-    border:solid 2px blue;
-    margin-left:138.257px;
+    width:198px;
+    height:198px;
+    border:solid 2px #0000FF;
+    margin-left:138px;
     margin:100px;
     display:inline-block;
 }
@@ -169,14 +166,51 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     margin:45px;
 }
 
 .boxthree{
     width:200px;
     height:150px;
-    border:solid 2px blue;
+    border:solid 2px #0000FF;
     margin:100px;
     display:inline-block;
+}
+
+
+.d1{
+    width: 150px;
+    height: 150px;
+    background: url(dust.png);
+    background-size: 150px 150px;
+    position:absolute;
+    left:800px;
+    top:600px;
+}
+
+
+.d1:hover{
+    width:150px;
+    height:150px;
+    background:url(dust_hover.png);
+    background-size:150px 150px;
+    
+}
+
+.d1:active{
+    width:150px;
+    height:150px;
+    background:url(dtest.jpg);
+    background-size:150px 150px;
+
+}
+
+.test{
+    width:150px;
+    height:150px;
+    background-color:red;
+    position:absolute;
+    top:600px;
+    left:900px;
 }
