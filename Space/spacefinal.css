@@ -1,6 +1,5 @@
-
 .wrapper{
-    width:2800px;
+    width:2600px;
     height:auto;
     margin:0 auto;
 }
@@ -39,12 +38,9 @@
     margin-left:447.09px;
     border-right-style:none;
     float: left;
-
 }
 
-   
-
-.boxone{
+.box{
     height:321px;
     width:321px;
     display:inline-block;
@@ -54,21 +50,17 @@
     margin:16px;
     top:20px;
     left:20px;
-    
+}
+
+.boxone{
+    top:20px;
+    left:20px;
 }
 
 
 .boxtwo{
-    height:321px;
-    width:321px;
-    display:inline-block;
-    border:solid 2px #0000FF;
-    position:relative;
-    padding:19px;
-    margin:16px;
     left:20px;
     top:100px;
-   
 }
 
 .rect{
@@ -78,8 +70,6 @@
     left:454px;
     position:relative;
     top:64px;
-    
-    
 }
 
 .thinrect{
@@ -89,7 +79,6 @@
     margin-left:16px;
     margin-top:60px;
     position:absolute;
-    
 }
 
 .bottomunit{
@@ -99,7 +88,6 @@
     border-top-style:none;
     border-left-style:none;
     display:inline-block;
-    
 }
 
 .clear{
@@ -121,7 +109,6 @@
     border:solid 2px #0000FF;
     margin-left:500px;
     margin-top:-505px;
-   
 }
 
 .quartercircle{
@@ -150,7 +137,6 @@
     border-bottom-style:none;
     margin-left:1654px;
     background-color:white;
-    
 }
 
 .sink{
@@ -178,214 +164,148 @@
     display:inline-block;
 }
 
-
-.d1{
-    width: 150px;
-    height: 150px;
+.dust{
+    width:150px;
+    height:150px;
     background:url(dust.png) repeat;
     background-size: 150px 150px;
     position:absolute;
+}
+
+.d1{
     left:500px;
     top:600px;
 }
 
-
 .d1:hover{
-    width:150px;
-    height:150px;
     background:url(dust_hover.png) repeat-x;
     background-size:150px 150px;
-    
 }
 
 .d1:active{
-    width:150px;
-    height:150px;
     background:url(dtest.jpg);
     background-size:150px 150px;
     transform:rotate(90deg);
-
 }
 
 .d2{
-    width: 150px;
-    height: 150px;
-    background:url(dust.png) repeat-x;
-    background-size: 150px 150px;
-    position:absolute;
     left:1000px;
     top:600px;
 }
 
-
 .d2:hover{
-    width:150px;
-    height:150px;
     background:url(dust_hover.png) repeat-x;
     background-size:150px 150px;
-    
 }
 
 .d2:active{
-    width:150px;
-    height:150px;
     background:url(d4.jpg);
     background-size:150px 150px;
     transform:rotate(90deg);
-
 }
 
-
 .d3{
-    width: 150px;
-    height: 150px;
-    background:url(dust.png) repeat-x;
-    background-size: 150px 150px;
-    position:absolute;
     left:800px;
     top:550px;
 }
 
-
 .d3:hover{
-    width:150px;
-    height:150px;
     background:url(dust_hover.png) repeat-x;
     background-size:150px 150px;
-    
 }
 
 .d3:active{
-    width:150px;
-    height:150px;
     background:url(d6.jpg);
     background-size:150px 150px;
+}
 
+.clothes{
+    width:150px;
+    height:150px;
+    background:url(laundry.png) repeat;
+    background-size:150px 150px;
+    position:absolute;
 }
 
 .l1{
-    width:150px;
-    height:150px;
-    background:url(laundry.png) repeat-x;
-    background-size:150px 150px;
-    position:absolute;
     left:860px;
     top:730px;
 }
 
 .l1:hover{
-   width:150px;
-    height:150px;
     background:url(laundry_hov.png) repeat-x;
     background-size:150px 150px;
 }
 
 .l1:active{
-    width:150px;
-    height:150px;
     background:url(sh1.jpg);
     background-size:150px 150px;
-
 }
 
 .l2{
-    width:150px;
-    height:150px;
-    background:url(laundry.png) repeat-x;
-    background-size:150px 150px;
-    position:absolute;
     left:2300px;
     top:1000px;
 }
 
 .l2:hover{
-   width:150px;
-    height:150px;
     background:url(laundry_hov.png) repeat-x;
     background-size:150px 150px;
 }
 
 .l2:active{
-    width:150px;
-    height:150px;
     background:url(sh2.jpg);
     background-size:150px 150px;
-
 }
 
 .l3{
-    width:150px;
-    height:150px;
-    background:url(laundry.png) repeat-x;
-    background-size:150px 150px;
-    position:absolute;
     left:1400px;
     top:980px;
 }
 
 .l3:hover{
-   width:150px;
-    height:150px;
     background:url(laundry_hov.png) repeat-x;
     background-size:150px 150px;
 }
 
 .l3:active{
-    width:150px;
-    height:150px;
     background:url(sh3.jpg);
     background-size:150px 150px;
     transform:rotate(-90deg);
 }
 
-.dr1{
+.dsheet{
     width:150px;
     height:150px;
     background:url(dryersheet.png) repeat-x;
     background-size:150px 150px;
     position:absolute;
+    
+}
+.dr1{
     left:2120px;
     top:1320px;
 }
 
 .dr1:hover{
-   width:150px;
-    height:150px;
     background:url(dryersheet_hov.png) repeat-x;
-    background-size:150px 150px;
 }
 
 .dr1:active{
-    width:150px;
-    height:150px;
     background:url(dr3.jpg);
     background-size:150px 150px;
-    
 }
 
 .dr2{
-    width:150px;
-    height:150px;
-    background:url(dryersheet.png) repeat-x;
-    background-size:150px 150px;
-    position:absolute;
     left:850px;
     top:920px;
 }
 
-
 .dr2:hover{
-   width:150px;
-    height:150px;
     background:url(dryersheet_hov.png) repeat-x;
-    background-size:150px 150px;
 }
 
 .dr2:active{
-    width:150px;
-    height:150px;
     background:url(dr5.jpg);
     background-size:150px 150px;
-    
 }
 
