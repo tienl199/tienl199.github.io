@@ -1,3 +1,29 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page2 {
+        background-image: url(d1.jpg);
+}
+
+/*.page2 {*/
+/*        background-image: url(dust_hover.png);*/
+/*}.*/
+
+.page3 {
+        background-image: url(d4.jpg);
+}
+
+.page4 {
+       background-image: url(dryersheet.png);
+}
+
+
+
+
 .wrapper{
     width:2600px;
     height:auto;
@@ -12,7 +38,7 @@
     font-size:30px;
     text-align:center;
     color:blue;
-    margin-left:1108px;
+    margin-left:448px;
     margin-top:160px;
     position:absolute;
 }
@@ -28,7 +54,7 @@
     transform:rotate(-90deg);
     position:absolute;
     margin-left:200px;
-    margin-top:850px;
+    margin-top:420px;
 }
 
 .leftunit{
@@ -136,7 +162,6 @@
     border:solid 2px #0000FF;
     border-bottom-style:none;
     margin-left:1654px;
-    background-color:white;
 }
 
 .sink{
@@ -182,11 +207,11 @@
     background-size:150px 150px;
 }
 
-.d1:active{
-    background:url(dtest.jpg);
-    background-size:150px 150px;
-    transform:rotate(90deg);
-}
+/*.d1:active{*/
+/*    background:url(dtest.jpg);*/
+/*    background-size:150px 150px;*/
+/*    transform:rotate(90deg);*/
+/*}*/
 
 .d2{
     left:1000px;
@@ -198,11 +223,11 @@
     background-size:150px 150px;
 }
 
-.d2:active{
-    background:url(d4.jpg);
-    background-size:150px 150px;
-    transform:rotate(90deg);
-}
+/*.d2:active{*/
+/*    background:url(d4.jpg);*/
+/*    background-size:150px 150px;*/
+/*    transform:rotate(90deg);*/
+/*}*/
 
 .d3{
     left:800px;
@@ -214,10 +239,10 @@
     background-size:150px 150px;
 }
 
-.d3:active{
-    background:url(d6.jpg);
-    background-size:150px 150px;
-}
+/*.d3:active{*/
+/*    background:url(d6.jpg);*/
+/*    background-size:150px 150px;*/
+/*}*/
 
 .clothes{
     width:150px;
@@ -237,10 +262,10 @@
     background-size:150px 150px;
 }
 
-.l1:active{
-    background:url(sh1.jpg);
-    background-size:150px 150px;
-}
+/*.l1:active{*/
+/*    background:url(sh1.jpg);*/
+/*    background-size:150px 150px;*/
+/*}*/
 
 .l2{
     left:2300px;
@@ -252,10 +277,10 @@
     background-size:150px 150px;
 }
 
-.l2:active{
-    background:url(sh2.jpg);
-    background-size:150px 150px;
-}
+/*.l2:active{*/
+/*    background:url(sh2.jpg);*/
+/*    background-size:150px 150px;*/
+/*}*/
 
 .l3{
     left:1400px;
@@ -267,11 +292,11 @@
     background-size:150px 150px;
 }
 
-.l3:active{
-    background:url(sh3.jpg);
-    background-size:150px 150px;
-    transform:rotate(-90deg);
-}
+/*.l3:active{*/
+/*    background:url(sh3.jpg);*/
+/*    background-size:150px 150px;*/
+/*    transform:rotate(-90deg);*/
+/*}*/
 
 .dsheet{
     width:150px;
@@ -290,10 +315,10 @@
     background:url(dryersheet_hov.png) repeat-x;
 }
 
-.dr1:active{
-    background:url(dr3.jpg);
-    background-size:150px 150px;
-}
+/*.dr1:active{*/
+/*    background:url(dr3.jpg);*/
+/*    background-size:150px 150px;*/
+/* }*/
 
 .dr2{
     left:850px;
@@ -304,8 +329,22 @@
     background:url(dryersheet_hov.png) repeat-x;
 }
 
-.dr2:active{
-    background:url(dr5.jpg);
-    background-size:150px 150px;
+
+/*.dr2:active{*/
+/*    background:url(dr5.jpg);*/
+/*    background-size:150px 150px;*/
+/*}*/
+
+.home{
+    width:200px;
+    height:200px;
+    background:url(icon_washer.png);
+    background-size:200px,200px;
+    position:absolute;
+    top:60px;
+    left:80px;
 }
 
+.home
+
+}
