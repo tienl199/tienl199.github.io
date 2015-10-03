@@ -62,6 +62,39 @@ body {
     background-image: url(tr4.jpg);
 }
 
+.page16{
+    background-image: url(l1.jpg);
+}
+
+.page17{
+    background-image:url(l2.jpg);
+}
+
+.page18{
+    background-image:url(l3.jpg);
+}
+
+.page19{
+    background-image:url(wa1.jpg);
+}
+
+.page20{
+    background-image:url(wa2.jpg);
+}
+
+.page21{
+    background-image:url(s2.jpg);
+}
+
+.page22{
+    background-image:url(s3.jpg);
+}
+
+.page23{
+    background-image:url(s4.jpg);
+}
+
+
 .wrapper{
     width:2600px;
     height:auto;
@@ -268,6 +301,41 @@ body {
 
 }
 
+.page16 .whiteline {
+            background-image: url(l1.jpg);
+
+}
+
+.page17 .whiteline {
+            background-image: url(l2.jpg);
+
+}
+
+.page18 .whiteline {
+            background-image: url(l3.jpg);
+
+}
+
+.page19 .whiteline{
+    background-image:url(wa1.jpg);
+}
+
+.page20 .whiteline{
+    background-image:url(wa2.jpg);
+}
+
+.page21 .whiteline{
+    background-image:url(s2.jpg);
+}
+
+.page22 .whiteline{
+    background-image:url(s3.jpg);
+}
+
+.page23 .whiteline{
+    background-image:url(s4.jpg);
+}
+
 .topunit{
     height:260px;
     width:839px;
@@ -404,6 +472,7 @@ body {
 
 .dr1:hover{
     background:url(dryersheet_hov.png) repeat-x;
+     background-size:150px 150px;
 }
 
 
@@ -414,6 +483,7 @@ body {
 
 .dr2:hover{
     background:url(dryersheet_hov.png) repeat-x;
+    background-size:150px 150px;
 }
 
 .dr3{
@@ -423,6 +493,7 @@ top:1000px;
 
 .dr3:hover{
     background:url(dryersheet_hov.png) repeat-x;
+    background-size:150px 150px;
 }
 
 .dr4{
@@ -433,6 +504,7 @@ top:1000px;
 
 .dr4:hover{
     background:url(dryersheet_hov.png) repeat-x;
+    background-size:150px 150px;
 }
 
 
@@ -453,6 +525,7 @@ top:1000px;
 
 .tr1:hover{
     background:url(trash_hov.png) repeat-x;
+    background-size:150px 150px;
 }
 
 .tr2{
@@ -462,6 +535,7 @@ top:1000px;
 
 .tr2:hover{
     background:url(trash_hov.png) repeat-x;
+     background-size:150px 150px;
 }
 
 .tr3{
@@ -471,6 +545,7 @@ top:1000px;
 
 .tr3:hover{
     background:url(trash_hov.png) repeat-x;
+    background-size:150px 150px;
 }
 
 .tr4{
@@ -480,4 +555,112 @@ top:1000px;
 
 .tr4:hover{
     background:url(trash_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.lint{
+    width:150px;
+    height:150px;
+    background:url(lint.png) repeat-x;
+    background-size:150px 150px;
+    position:absolute;
+}
+.li1{
+    left:500px;
+    top:1000px;
+}
+
+.li1:hover{
+    background:url(lint_hov.png) repeat-x;
+    background-size:150px 150px;
+} 
+
+.li2{
+    left:800px;
+    top:1000px;
+}
+
+.li2:hover{
+    background:url(lint_hov.png) repeat-x;
+    background-size:150px 150px;
+} 
+
+.li3{
+    left:1700px;
+    top:1100px;
+}
+
+.li3:hover{
+    background:url(lint_hov.png) repeat-x;
+    background-size:150px 150px;
+} 
+
+.wash{
+    width:150px;
+    height:150px;
+    background:url(bubble.png) repeat-x;
+    background-size:150px 150px;
+    position:absolute;
+}
+
+.wa1{
+    left:1000px;
+    top:200px;
+}
+
+.wa1:hover{
+    background:url(bubble_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.wa2{
+    left:500px;
+    top:220px;
+}
+
+.wa2:hover{
+    background:url(bubble_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.stain{
+    width:150px;
+    height:150px;
+    background:url(stain.png) repeat-x;
+    background-size:150px 150px;
+    position:absolute; 
+}
+
+.s1{
+    left:2400px;
+    top:127px;
+}
+
+.s1:hover{
+    background:url(stain_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.s2{
+    left:2100px;
+    top:387px;
+}
+
+.s2:hover{
+    background:url(stain_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.s3{
+    left:1300px;
+    top:680px;
+}
+
+.s3:hover{
+    background:url(stain_hov.png) repeat-x;
+    background-size:150px 150px;
+}
+
+.d1.jpg:hover{
+    background:url(spacefinal.html);
 }

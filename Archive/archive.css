@@ -1,5 +1,6 @@
 #container{
     width:950px;
+    height:auto;
     margin:50px auto;
     
 }
@@ -60,34 +61,27 @@
     width:38px;
     text-align:center;
     margin:540px 2px;
-    position:relative;
+    position:absolute;
     padding:2px;
-    right:-130px;
 }
 
 .leftcoordinates{
     width:2px;
     margin:45px 0;
-    left:95px;
-    top:-1176px;
-    position:relative;   
+    position:absolute;  
+    
 }
 
 .rightcoordinates{
     width:2px;
     margin:45px 0;
-    left:1090px;
-    top:-1740px;
-    position:relative;
+    position:absolute;
     text-align:center;
 
 }
 
-.cali{
-    border-radius:50%;
-	width: 20px;
-	height: 20px; 
-    background:red;
+.laura{
+    background:url(reddot.png) repeat-x;
     position:relative;
     left:290px;
    bottom:2160px;
