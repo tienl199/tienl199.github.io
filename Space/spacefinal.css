@@ -9,10 +9,6 @@ body {
         background-image: url(d1.jpg);
 }
 
-/*.page2 {*/
-/*        background-image: url(dust_hover.png);*/
-/*}.*/
-
 .page3 {
         background-image: url(d4.jpg);
 }
@@ -149,11 +145,25 @@ body {
 }
 
 .whiteline{
-    height:377px;
-    width:0px;
+    height:382px;
+    width:6px;
     margin-left:838px;
     margin-top:-382px;
-    border:solid 3px white;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page2 .whiteline {
+            background-image: url(d1.jpg);
+
+}
+
+.page3 .whiteline {
+            background-image: url(d4.jpg);
+
 }
 
 .topunit{
@@ -203,8 +213,13 @@ body {
 }
 
 .d1:hover{
-    background:url(dust_hover.png) repeat-x;
+    background:url(dust_hover.png) repeat;
     background-size:150px 150px;
+    
+}
+
+.d1:visited{
+    opacity:0.4;
 }
 
 /*.d1:active{*/
