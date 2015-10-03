@@ -11,14 +11,56 @@ body {
 
 .page3 {
         background-image: url(d4.jpg);
+       
 }
 
 .page4 {
-       background-image: url(dryersheet.png);
+       background-image: url(d2.jpg);
 }
 
+.page5 {
+       background-image: url(sh1.jpg);
+}
 
+.page6 {
+       background-image: url(sh2.jpg);
+}
 
+.page7 {
+       background-image: url(sh3.jpg);
+}
+
+.page8 {
+       background-image: url(dr2.jpg);
+}
+
+.page9{
+    background-image: url(dr3.jpg);
+}
+
+.page10{
+    background-image: url(dr1.jpg);
+}
+
+.page11{
+    background-image: url(dr12.jpg);
+}
+
+.page12{
+    background-image: url(tr1.jpg);
+}
+
+.page13{
+    background-image: url(tr2.jpg);
+}
+
+.page14{
+    background-image: url(tr3.jpg);
+}
+
+.page15{
+    background-image: url(tr4.jpg);
+}
 
 .wrapper{
     width:2600px;
@@ -166,6 +208,66 @@ body {
 
 }
 
+.page4 .whiteline {
+            background-image: url(d2.jpg);
+
+}
+
+.page5 .whiteline {
+            background-image: url(sh1.jpg);
+
+}
+
+.page6 .whiteline {
+            background-image: url(sh2.jpg);
+
+}
+
+.page7 .whiteline {
+            background-image: url(sh3.jpg);
+
+}
+
+.page8 .whiteline {
+            background-image: url(dr2.jpg);
+
+}
+
+.page9 .whiteline {
+            background-image: url(dr3.jpg);
+
+}
+
+.page10 .whiteline {
+            background-image: url(dr1.jpg);
+
+}
+
+.page11 .whiteline {
+            background-image: url(dr12.jpg);
+
+}
+
+.page12 .whiteline {
+            background-image: url(tr1.jpg);
+
+}
+
+.page13 .whiteline {
+            background-image: url(tr2.jpg);
+
+}
+
+.page14 .whiteline {
+            background-image: url(tr3.jpg);
+
+}
+
+.page15 .whiteline {
+            background-image: url(tr4.jpg);
+
+}
+
 .topunit{
     height:260px;
     width:839px;
@@ -222,11 +324,6 @@ body {
     opacity:0.4;
 }
 
-/*.d1:active{*/
-/*    background:url(dtest.jpg);*/
-/*    background-size:150px 150px;*/
-/*    transform:rotate(90deg);*/
-/*}*/
 
 .d2{
     left:1000px;
@@ -238,11 +335,6 @@ body {
     background-size:150px 150px;
 }
 
-/*.d2:active{*/
-/*    background:url(d4.jpg);*/
-/*    background-size:150px 150px;*/
-/*    transform:rotate(90deg);*/
-/*}*/
 
 .d3{
     left:800px;
@@ -254,10 +346,7 @@ body {
     background-size:150px 150px;
 }
 
-/*.d3:active{*/
-/*    background:url(d6.jpg);*/
-/*    background-size:150px 150px;*/
-/*}*/
+
 
 .clothes{
     width:150px;
@@ -277,10 +366,6 @@ body {
     background-size:150px 150px;
 }
 
-/*.l1:active{*/
-/*    background:url(sh1.jpg);*/
-/*    background-size:150px 150px;*/
-/*}*/
 
 .l2{
     left:2300px;
@@ -292,10 +377,6 @@ body {
     background-size:150px 150px;
 }
 
-/*.l2:active{*/
-/*    background:url(sh2.jpg);*/
-/*    background-size:150px 150px;*/
-/*}*/
 
 .l3{
     left:1400px;
@@ -307,11 +388,6 @@ body {
     background-size:150px 150px;
 }
 
-/*.l3:active{*/
-/*    background:url(sh3.jpg);*/
-/*    background-size:150px 150px;*/
-/*    transform:rotate(-90deg);*/
-/*}*/
 
 .dsheet{
     width:150px;
@@ -330,10 +406,6 @@ body {
     background:url(dryersheet_hov.png) repeat-x;
 }
 
-/*.dr1:active{*/
-/*    background:url(dr3.jpg);*/
-/*    background-size:150px 150px;*/
-/* }*/
 
 .dr2{
     left:850px;
@@ -344,22 +416,68 @@ body {
     background:url(dryersheet_hov.png) repeat-x;
 }
 
-
-/*.dr2:active{*/
-/*    background:url(dr5.jpg);*/
-/*    background-size:150px 150px;*/
-/*}*/
-
-.home{
-    width:200px;
-    height:200px;
-    background:url(icon_washer.png);
-    background-size:200px,200px;
-    position:absolute;
-    top:60px;
-    left:80px;
+.dr3{
+left:2100px;
+top:1000px;
 }
 
-.home
+.dr3:hover{
+    background:url(dryersheet_hov.png) repeat-x;
+}
 
+.dr4{
+    left:1685px;
+    top:680px;
+    
+}
+
+.dr4:hover{
+    background:url(dryersheet_hov.png) repeat-x;
+}
+
+
+
+.trash{
+    width:150px;
+    height:150px;
+    background:url(trash.png) repeat-x;
+    background-size:150px 150px;
+    position:absolute;
+}
+
+
+.tr1{
+    left:1600px;
+    top:600px;
+}
+
+.tr1:hover{
+    background:url(trash_hov.png) repeat-x;
+}
+
+.tr2{
+    left:2000px;
+    top:500px;
+}
+
+.tr2:hover{
+    background:url(trash_hov.png) repeat-x;
+}
+
+.tr3{
+    left:987px;
+    top:1000px;
+}
+
+.tr3:hover{
+    background:url(trash_hov.png) repeat-x;
+}
+
+.tr4{
+    left:1995px;
+    top:1039px;
+}
+
+.tr4:hover{
+    background:url(trash_hov.png) repeat-x;
 }
