@@ -660,3 +660,13 @@ top:1000px;
     background:url(stain_hov.png) repeat-x;
     background-size:150px 150px;
 }
+
+.logo{
+    width:200px;
+    height:200px;
+    background:url(logo.png) no-repeat;
+    background-size:100px 100px;
+    position:fixed; 
+    left: 100px;
+    top: 60px;
+}
