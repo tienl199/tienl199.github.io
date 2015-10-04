@@ -2,9 +2,51 @@
     width:950px;
     height:auto;
     margin:50px auto;
-    
+
 }
 
+.icon{
+    width:80px;
+    height:80px;
+    background:url(reddot.png);
+    background-size:80px 80px;
+    position:absolute;
+}
+
+.laura{
+    top:221px;
+    left:270px;
+}
+
+.lauraco{
+    top:280px;
+    left:230px;
+    position:absolute;
+    font-family:"helvetica neue" sans-serif;
+}
+
+img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:800px; 
+}
+
+img:hover{
+    width:150px;
+    height:150px;
+    opacity:0.4;
+}
+.text{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:450px;
+    font-family:;
+    font-family:"helvetica neue" sans-serif;
+}
 .horizontalbars{
     position:absolute;
 }
@@ -17,7 +59,7 @@
 }
 
 .horizontalthick {
-    width:960px;
+    width:950px;
     height:3px;
     background-color: #000;
     margin:61px 0;
@@ -38,13 +80,16 @@
 
 .verticalthick{
     width:3px;
-    height:94vh;
+    height:90vh;
     background-color: #000;
     display:inline-block;
-    margin:0 23px;
+    margin:22px;
 }
 
 
+.upcor{
+    position:absolute;
+}
 
 .upcoordinates{
     display:inline-block;
@@ -55,34 +100,38 @@
    
 }
 
+.lowcor{
+    position:relative;
+}
+
 .lowcoordinates{
-    display:inline-block;
-    padding:3px;
-    width:38px;
-    text-align:center;
-    margin:540px 2px;
+    display: inline-block;
+    padding: 3.5px;
+    width: 38.3px;
+    text-align: center;
+    margin-top:640px;
+
+    
+}
+.leftcor{
     position:absolute;
-    padding:2px;
 }
 
 .leftcoordinates{
-    width:2px;
-    margin:45px 0;
-    position:absolute;  
+    width: 2px;
+    margin: 46px -40px;
+   
     
 }
 
-.rightcoordinates{
-    width:2px;
-    margin:45px 0;
+.rightcor{
     position:absolute;
-    text-align:center;
-
 }
 
-.laura{
-    background:url(reddot.png) repeat-x;
-    position:relative;
-    left:290px;
-   bottom:2160px;
+.rightcoordinates{
+    margin-left: 960px;
+    width: 2px;
+    padding-top: 3px;
+    margin-top: 43px;
 }
+
