@@ -25,7 +25,7 @@
     font-family:"helvetica neue" sans-serif;
 }
 
-img{
+.laurass img{
   width:150px;
   height:150px;
   border:solid 1px black;
@@ -34,19 +34,374 @@ img{
   left:800px; 
 }
 
+
+.lauratext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:450px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+.clarissa{
+    top:300px;
+    left:920px;
+}
+
+.clarissaco{
+    top:358px;
+    left:880px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.clarissatext{
+    text-align:left;
+    position:absolute;
+    top:338px;
+    left:333px;
+    font-family:"helvetica neue", sans-serif;
+}
+
+
+.clarissass img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:170px; 
+}
+
+
+.mrinal{
+    top: 252px;
+    left: 690px;
+}
+
+.mrinalco{
+    top: 312px;
+    left: 650px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.mrinaltext{
+    text-align:left;
+    position:absolute;
+    top:338px;
+    left:333px;
+    font-family:"helvetica neue", sans-serif;
+}
+
+
+.mrinalss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:170px; 
+}
+
+.nicole{
+    top: 265px;
+    left: 320px;
+}
+
+.nicoleco{
+    top: 324px;
+    left: 270px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.nicoletext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:349px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.nicoless img{
+ width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:903px; 
+}
+
+.carlos{
+    top: 310px;
+    left: 380px;
+}
+
+.carlosco{
+     top: 363px;
+    left: 340px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.carlostext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:350px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.carlosss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:900px; 
+}
+
+.perla{
+    top: 195px;
+    left: 388px;
+}
+
+.perlaco{
+    top: 255px;
+    left: 345px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.perlatext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:350px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.perlass img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:900px; 
+}
+
+
+.charles{
+    top: 200px;
+    left: 280px;
+}
+
+.charlesco{
+    top: 260px;
+    left: 240px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.charlestext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:350px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.charlesss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:900px; 
+}
+
+.jun{
+    top: 210px;
+    left: 870px;
+}
+
+.junco{
+    top: 270px;
+    left: 830px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.juntext{
+     text-align:left;
+    position:absolute;
+    top:338px;
+    left:333px;
+    font-family:"helvetica neue", sans-serif;
+}
+
+
+.junss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:170px; 
+}
+
+.pedro{
+    top: 351px;
+    left: 457px;
+}
+
+.pedroco{
+   top: 411px;
+    left: 417px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.pedrotext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:340px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.pedross img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top: 240px;
+  left: 910px; 
+}
+
+
+
+
+.haleytext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:340px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.haleyss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top: 342px;
+  left: 910px; 
+}
+
+.nikoletta{
+    top: 210px;
+    left: 627px;
+}
+
+.nikolettaco{
+    top: 271px;
+    left: 587px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.nikolettatext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:340px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.nikolettass img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top: 240px;
+  left: 910px; 
+}
+
+.mortensen{
+    top:164px;
+    left:567px;
+}
+
+.mortensenco{
+    top: 231px;
+    left: 527px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.mortensentext{
+    text-align:right;
+    position:absolute;
+    top:340px;
+    right:340px;
+    font-family:"helvetica neue" sans-serif;
+}
+
+
+.mortensenss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top: 240px;
+  left: 910px; 
+}
+
+.juju{
+    top: 253px;
+    left: 837px;
+}
+
+.jujuco{
+    top: 315px;
+    left: 797px;
+    position:absolute;
+    font-family:"helvetica neue", sans-serif;
+}
+
+.jujutext{
+     text-align:left;
+    position:absolute;
+    top:338px;
+    left:333px;
+    font-family:"helvetica neue", sans-serif;
+}
+
+
+.jujuss img{
+  width:150px;
+  height:150px;
+  border:solid 1px black;
+  position:absolute;
+  top:240px;
+  left:170px; 
+}
+
 img:hover{
     width:150px;
     height:150px;
     opacity:0.4;
 }
-.text{
-    text-align:right;
-    position:absolute;
-    top:340px;
-    right:450px;
-    font-family:;
-    font-family:"helvetica neue" sans-serif;
-}
+
 .horizontalbars{
     position:absolute;
 }
