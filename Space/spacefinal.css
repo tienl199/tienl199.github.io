@@ -667,6 +667,29 @@ top:1000px;
     background:url(logo.png) no-repeat;
     background-size:100px 100px;
     position:fixed; 
-    left: 100px;
-    top: 60px;
+    left: 50%;
+    top: 50%;
 }
+
+
+ .text{
+     background-color:white;
+     width:185px;
+     height:55px;
+     position:fixed;
+     left:46%;
+     top:40%;
+     display:none;
+     font-size:12px;
+     font-family:"helvetica neue", sans-serif;
+     color:#0000FF;
+     text-align: justify;
+     
+     
+ }
+ 
+.logo:hover + .text{
+    display:block;
+    
+}
+ 
