@@ -673,7 +673,7 @@ top:1000px;
     height:40px;
     border-radius:50%;
     border:solid 2px #0000FF;
-    position:fixed; 
+    position:absolute; 
     left: 100px;
     top: 110px;
 }
@@ -694,7 +694,5 @@ top:1000px;
      text-align:justify;
  }
  
-.uni{
-    background-image:url(ex.gif);
-}
+
  
