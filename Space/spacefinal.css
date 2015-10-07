@@ -102,29 +102,29 @@ body {
 }
 
 .width{
-    height:30px;
-    width:300px;
+    height:20px;
+    width:200px;
     border:solid 2px #0000FF;
     font-family:"Minion Pro", Serif,;
-    font-size:30px;
+    font-size:20px;
     text-align:center;
     color:blue;
     margin-left:448px;
-    margin-top:160px;
+    margin-top:129px;
     position:absolute;
 }
 
 .height{
-    height:30px;
-    width:300px;
+    height:20px;
+    width:200px;
     border:solid 2px #0000FF;
     font-family:"Minion Pro", Serif;
-    font-size:30px;
+    font-size:20px;
     text-align:center;
     color:#0000FF;
     transform:rotate(-90deg);
     position:absolute;
-    margin-left:200px;
+    margin-left:221px;
     margin-top:420px;
 }
 
@@ -662,33 +662,27 @@ top:1000px;
 
 
 .logo{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     border:solid 2px #0000FF;
     position:fixed; 
     left: 100px;
-    top: 100px;
+    top: 110px;
 }
 
+.logo:hover{
+    border:solid 2px #FF00DD;
+}
 
 .text{
-     background-color:white;
      width:180px;
      height:55px;
-     position:fixed;
-     left:46%;
-     top:40%;
-     display:none;
+     position:absolute;
+     left:100px;
+     top:40px;
      font-size:12px;
      font-family:"helvetica neue", sans-serif;
      color:#0000FF;
-     text-align: justify;
+     text-align:justify;
  }
  
- 
-.logo:hover + .text{
-    display:block;
-    width:60px;
-    height:60px;
-    
-}
