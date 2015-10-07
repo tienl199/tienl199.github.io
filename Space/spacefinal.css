@@ -369,6 +369,8 @@ body {
     display:inline-block;
 }
 
+
+
 .dust{
     width:150px;
     height:150px;
@@ -382,14 +384,11 @@ body {
     top:600px;
 }
 
+
 .d1:hover{
     background:url(dust_hover.png) repeat;
     background-size:150px 150px;
     
-}
-
-.d1:visited{
-    opacity:0.4;
 }
 
 
@@ -661,18 +660,18 @@ top:1000px;
     background-size:150px 150px;
 }
 
+
 .logo{
-    width:200px;
-    height:200px;
-    background:url(logo.png) no-repeat;
-    background-size:100px 100px;
+    width:50px;
+    height:50px;
+    border:solid 2px #0000FF;
     position:fixed; 
-    left: 50%;
-    top: 50%;
+    left: 100px;
+    top: 100px;
 }
 
 
- .text{
+.text{
      background-color:white;
      width:180px;
      height:55px;
@@ -684,12 +683,12 @@ top:1000px;
      font-family:"helvetica neue", sans-serif;
      color:#0000FF;
      text-align: justify;
-     
-     
  }
+ 
  
 .logo:hover + .text{
     display:block;
+    width:60px;
+    height:60px;
     
 }
- 
