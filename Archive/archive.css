@@ -1,7 +1,7 @@
 #container{
     width:950px;
     height:auto;
-    margin:50px auto;
+    margin:30px auto;
 
 }
 
@@ -426,7 +426,7 @@ img:hover{
 
 .vertical{
     width:1px;
-    height:90vh;
+    height:580px;
     background-color: #000;
     display:inline-block;
     margin:22px;
@@ -435,7 +435,7 @@ img:hover{
 
 .verticalthick{
     width:3px;
-    height:90vh;
+    height:580px;
     background-color: #000;
     display:inline-block;
     margin:22px;
@@ -456,15 +456,15 @@ img:hover{
 }
 
 .lowcor{
-    position:relative;
+    position:absolute;
 }
 
 .lowcoordinates{
     display: inline-block;
-    padding: 3.5px;
-    width: 38.3px;
+    padding: 3px;
+    width: 39.3px;
     text-align: center;
-    margin-top:598px;
+    margin-top:610px;
 
     
 }
@@ -474,7 +474,7 @@ img:hover{
 
 .leftcoordinates{
     width: 2px;
-    margin: 46px -40px;
+    margin:46px -40px;
    
     
 }
@@ -490,3 +490,52 @@ img:hover{
     margin-top: 43px;
 }
 
+.equator{
+    position:absolute;
+    top:325px;
+    left:177px;
+    font-family:"helevetica neue" sans-serif;
+    font-size:10px;
+}
+
+
+.leftarrow{
+    height:10px;
+    width:10px;
+    background-image:url(leftarrow.png);
+    background-size:10px 10px;
+    position:absolute;
+    top:335px;
+    left:140px;
+    
+}
+
+.bottomarrow{
+    height:10px;
+    width:10px;
+    background-image:url(bottomarrow.png);
+    background-size:10px 10px;
+    position:absolute;
+    top:625px;
+    left:606px;
+}
+
+.toparrow{
+    height:10px;
+    width:10px;
+    background-image:url(toparrow.png);
+    background-size:10px 10px;
+    position:absolute;
+    top:49px;
+    left:606px;
+}
+
+.rightarrow{
+    height:10px;
+    width:10px;
+    background-image:url(rightarrow.png);
+    background-size:10px 10px;
+    position:absolute;
+    top:335px;
+    left:1090px;
+}
