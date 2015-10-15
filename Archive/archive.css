@@ -491,9 +491,9 @@ img:hover{
 }
 
 .equator{
-    position:absolute;
-    top:325px;
-    left:177px;
+    position:relative;
+    top:345px;
+    left:31px;
     font-family:"helevetica neue" sans-serif;
     font-size:10px;
 }
@@ -504,9 +504,9 @@ img:hover{
     width:10px;
     background-image:url(leftarrow.png);
     background-size:10px 10px;
-    position:absolute;
-    top:335px;
-    left:140px;
+    position:relative;
+    top:345px;
+    left:-10px;
     
 }
 
@@ -515,9 +515,9 @@ img:hover{
     width:10px;
     background-image:url(bottomarrow.png);
     background-size:10px 10px;
-    position:absolute;
-    top:625px;
-    left:606px;
+    position:relative;
+    top:608px;
+    left:459px;
 }
 
 .toparrow{
@@ -525,9 +525,9 @@ img:hover{
     width:10px;
     background-image:url(toparrow.png);
     background-size:10px 10px;
-    position:absolute;
-    top:49px;
-    left:606px;
+    position:relative;
+    top:39px;
+    left:459px;
 }
 
 .rightarrow{
@@ -535,7 +535,7 @@ img:hover{
     width:10px;
     background-image:url(rightarrow.png);
     background-size:10px 10px;
-    position:absolute;
+    position:relative;
     top:335px;
-    left:1090px;
+    left:949px;
 }
