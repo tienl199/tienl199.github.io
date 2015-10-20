@@ -21,7 +21,7 @@
 .lauraco{
     top:280px;
     left:230px;
-    position:absolute;
+    position:fixed;
     font-family:"helvetica neue" sans-serif;
 }
 
