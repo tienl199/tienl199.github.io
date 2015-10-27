@@ -1,0 +1,176 @@
+.vertical-line {
+	position: relative;
+	display:inline-block;
+	height: 310px;
+	width: 5px;
+}
+
+.v-thin {
+	background-color: black;
+	width: 2px;
+	height:300px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+/* note: */
+/* This top, left, bottom, right thing is explained here: */
+/* http://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/ */
+
+.v-medium {
+	background-color: black;
+	width: 4px;
+	height:200px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+.v-thick {
+	background-color: black;
+	width: 6px;
+	height:100px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+.horizontal-line {
+	position: relative;
+	display:inline-block;
+	height: 310px;
+	width: 6px;
+	bottom:190px;
+	left:50px;
+}
+
+.h-thin {
+	background-color: black;
+	width: 2px;
+	height:50px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+.h-medium {
+	background-color: black;
+	width: 4px;
+	height:35px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+.h-thick {
+	background-color: black;
+	width: 6px;
+	height:25px;
+	position: absolute;
+	margin: auto;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+}
+
+
+
+/*.wrapper{*/
+/*    width:200px;*/
+/*    height:135px;*/
+/*    position:static;*/
+/*    line-height:0;*/
+/*    display:inline-block;*/
+/*}*/
+
+/*.verticallines{*/
+/*    position:absolute;*/
+/*}*/
+
+/*.vertical{*/
+/*    width:1px;*/
+/*    height:130px;*/
+/*    background-color: #000;*/
+/*    display:inline-block;*/
+/*    margin:0px;*/
+/*    position:relative;*/
+
+/*}*/
+
+/*.vertical1{*/
+/*    width:2px;*/
+/*    height:79px;*/
+/*    background-color: #000;*/
+/*    display:inline-block;*/
+/*    position:relative;*/
+/*    right:29px;*/
+/*    margin:-0.6px;*/
+/*    bottom:30px;*/
+    
+/*}*/
+
+/*.vertical2{*/
+/*    width:3px;*/
+/*    height:39px;*/
+/*    background-color: #000;*/
+/*    display:inline-block;*/
+/*    position:relative;*/
+/*    right:59px;*/
+/*    margin:-1px;*/
+/*    bottom:51px;*/
+    
+/*}*/
+
+
+/*.horizontallines{*/
+/*    position:absolute;*/
+/*}*/
+/*.horizontal{*/
+/*    width:1px;*/
+/*    height:31px;*/
+/*    background-color:#000;*/
+/*    display:inline-block;*/
+/*    position:relative;*/
+/*    top:99px;*/
+/*    left:30px;*/
+/*    margin:0px;*/
+/*}*/
+
+/*.horizontal1{*/
+/*    width:2px;*/
+/*    height:15px;*/
+/*    background-color:#000;*/
+/*    display:inline-block;*/
+/*    position:relative;*/
+/*    top:92px;*/
+/*    right:16px;*/
+/*    margin:-0.4px;*/
+/*}*/
+
+/*.horizontal2{*/
+/*    width:3px;*/
+/*    height:5px;*/
+/*    background-color:#000;*/
+/*    display:inline-block;*/
+/*    position:relative;*/
+/*    top:87px;*/
+/*    right:62px;*/
+/*    margin:-1px;*/
+/*}*/
