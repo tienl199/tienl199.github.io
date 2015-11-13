@@ -1,0 +1,52 @@
+.body{
+    height:800px;
+}
+.square1{
+    display:inline-block;
+    height:100px;
+    width:180px;
+    background-color:white;
+    background-image:url(n1.jpg);
+}
+
+.square2{
+    display:inline-block;
+    height:100px;
+    width:180px;
+    background-color:white;
+    background-image:url(n2.jpg);
+}
+
+.square3{
+    display:inline-block;
+    height:100px;
+    width:180px;
+    background-color:white;
+    background-image:url(n3.jpg);
+}
+
+.square4{
+    display:inline-block;
+    height:100px;
+    width:180px;
+    background-color:white;
+    background-image:url(n4.jpg);
+}
+.square5{
+    display:inline-block;
+    height:100px;
+    width:180px;
+    background-color:white;
+    background-image:url(n5.jpg);
+}
+
+img{
+    height:100px;
+    width:180px;
+}
+
+
+.shoe{
+    height:100%;
+    width:100%;
+}
