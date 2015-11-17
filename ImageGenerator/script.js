@@ -5,38 +5,80 @@ var randomShoe;
 var randomShoe2;
 
 for (var i = 0; i <100; i++){
-     $("body").append('<div class="square"></div>');
-     var randomShoe = shoes[Math.floor(Math.random()*5)];
-    $("body").append('<div class="square"></div>');
-    var randomShoe2 = shoes[Math.floor(Math.random()*5)];
+    var randomShoe = shoes[Math.floor(Math.random()*5)];
+    var numVar = i + 1;
+    $("body").append('<div class="square"><img src="' + randomShoe + '"></div>')
 }
 
-$('.square').click(function(){
-  var randomShoe = shoes[Math.floor(Math.random()*5)];
-  if (pressed == false){
-    randomShoe = shoes[Math.floor(Math.random()*5)];
-    $('.square').html('<img src = "' + randomShoe + '"/>')
-    pressed == true;
-  }else{
-    $('.square').html('<img src = "' + randomShoe + '"/>')
 
-    pressed = false;
-  }
-})
+    $('body').mousemove(function(){
+            $('body').html("");
+
+      if (pressed == false){
+      console.log("working");
+        randomShoe = shoes[Math.floor(Math.random()*5)];
+        for (var i = 0; i <100; i++){
+              var randomShoe = shoes[Math.floor(Math.random()*5)];
+              var numVar = i + 1;
+              $("body").append('<div class="square"><img src="' + randomShoe + '"></div>')
+          }   
+      } else {
+            randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+    for (var i = 0; i <100; i++){
+          var randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+          var numVar = i + 1;
+          $("body").append('<div class="square"><img src="' + randomShoe2 + '"></div>')
+      }
+      }
+    });
+// }else{ 
 
 
-$('.square').mousemove(function(){
-  var randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+$('body').click(function() {
+    $('body').html("");
   if (pressed == false){
     randomShoe2 = shoes2[Math.floor(Math.random()*7)];
-    $('.square').html('<img src = "' + randomShoe2 + '"/>')
-    pressed == true;
+    for (var i = 0; i <100; i++){
+          var randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+          var numVar = i + 1;
+          $("body").append('<div class="square"><img src="' + randomShoe2 + '"></div>')
+      }
+      pressed = true;
   }else{
-    $('.square').html('<img src = "' + randomShoe2 + '"/>')
-
-    pressed = false;
+    randomShoe = shoes[Math.floor(Math.random()*5)];
+    for (var i = 0; i <100; i++){
+          var randomShoe = shoes[Math.floor(Math.random()*5)];
+          var numVar = i + 1;
+          $("body").append('<div class="square"><img src="' + randomShoe + '"></div>')
+    $('body').mousemove(function(){
+      $('body').html("");
+      console.log("working");
+        randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+        for (var i = 0; i <100; i++){
+              var randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+              var numVar = i + 1;
+              $("body").append('<div class="square"><img src="' + randomShoe2 + '"></div>')
+          }   
+    });  
+      
+    }
+      
   }
-})
+  
+  });
+
+// $('.square').mousemove(function(){
+//   var randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+//   if (pressed == false){
+//     randomShoe2 = shoes2[Math.floor(Math.random()*7)];
+//     $('.square').html('<img src = "' + randomShoe2 + '"/>')
+//     pressed == true;
+//   }else{
+//     $('.square').html('<img src = "' + randomShoe2 + '"/>')
+
+//     pressed = false;
+//   }
+// });
 
 
 
