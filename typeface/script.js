@@ -1,19 +1,126 @@
-var t = ["un1.jpg", "un2.jpg", "un3.jpg"]
-var pressed = false;
-var tests
+$("#click1").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-1").removeClass("hide");
+    $(".random-image-2").addClass("hide");
+    $(".random-image-3").addClass("hide");
+});
 
-$(".container_all").click(function() {
-  if (pressed == false){
-    tests = t[Math.floor(Math.random()*3)];
-    $(".container_all").append('<div class="test"><img src="' + tests + '"></div>')
-    // var newTop = event.clientY + "px";
-    // var NewLeft=event.clientX + "px";
-    // $("").css("top",newTop);
-    // $(".container_all").css("left",NewLeft);
-       pressed = true;
-  }else{
-     $('.test').hide();
-     pressed = false;
-          }   
-    });  
+$("#click2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-2").removeClass("hide");
+    $(".random-image-1").addClass("hide");
+    $(".random-image-3").addClass("hide");
+});
+
+$("#click3").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-3").removeClass("hide");
+    $(".random-image-1").addClass("hide");
+    $(".random-image-2").addClass("hide");
+});
+
+$("#click1_2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-1_2").removeClass("hide");
+    $(".random-image-2_2").addClass("hide");
+    $(".random-image-3_2").addClass("hide");
+});
+
+$("#click2_2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-2_2").removeClass("hide");
+    $(".random-image-1_2").addClass("hide");
+    $(".random-image-3_2").addClass("hide");
+});
+
+$("#click3_2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-3_2").removeClass("hide");
+    $(".random-image-1_2").addClass("hide");
+    $(".random-image-2_2").addClass("hide");
+});
+
+
+$("#click1_3_2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-1_3_2").removeClass("hide");
+    $(".random-image-2_3_2").addClass("hide");
+});
+
+$("#click2_3_2").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-2_3_2").removeClass("hide");
+    $(".random-image-1_3_2").addClass("hide");
+});
+
+$("#click1_4").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-1_4").removeClass("hide");
+    $(".random-image-2_4").addClass("hide");
+    $(".random-image-3_4").addClass("hide");
+});
+
+$("#click2_4").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-2_4").removeClass("hide");
+    $(".random-image-1_4").addClass("hide");
+    $(".random-image-3_4").addClass("hide");
+});
+
+$("#click3_4").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-3_4").removeClass("hide");
+    $(".random-image-1_4").addClass("hide");
+    $(".random-image-2_4").addClass("hide");
+});
+
+$("#click1_5").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-1_5").removeClass("hide");
+    $(".random-image-2_5").addClass("hide");
+    $(".random-image-3_5").addClass("hide");
+});
+
+$("#click2_5").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-2_5").removeClass("hide");
+    $(".random-image-1_5").addClass("hide");
+    $(".random-image-3_5").addClass("hide");
+});
+
+$("#click3_5").click(function() {
+    // console.log("clicked 1!");
+    // $(".random-image-1").css("display","block");
+    $(".random-image-3_5").removeClass("hide");
+    $(".random-image-1_5").addClass("hide");
+    $(".random-image-2_5").addClass("hide");
+});
+
+
+
+
+
+
+// $(".clickable-letter").click(function(){
+//     // console.log("hi");
+//     var target = $(this).data('target');
+//     $('.random-image').addClass('hide');
+//     $(target).removeClass('hide');
+    
+// //   $(".random-image-U").css("display","block");
   
+// });
+
