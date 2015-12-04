@@ -246,6 +246,7 @@ body{
 
 .A{
 	position:fixed;
+	left:9px;
 }
 
 .wrapper{
@@ -382,7 +383,7 @@ body{
 
 .B{
 	position:fixed;
-	left:150px;
+	left:143px;
 }
 
 
@@ -498,7 +499,7 @@ body{
 
 .C{
 	position:fixed;
-	left:260px;
+	left:262px;
 }
 	
 .h-line-C-t{
@@ -515,7 +516,7 @@ body{
 
 .D{
 	position:fixed;
-	left:380px;
+	left:381px;
 }
 	
 .h-line-D-t{
@@ -558,12 +559,12 @@ body{
 
 .F{
 	position:fixed;
-	left:620px;
+	left:619px;
 }
 
 .G{
 	position:fixed;
-	left:740px;
+	left:738px;
 }
 
 
@@ -591,7 +592,7 @@ body{
 
 .H{
 	position:fixed;
-	left:860px;
+	left:857px;
 }
 
 .h-line-H-b{
@@ -604,7 +605,7 @@ body{
 .I{
 	position:fixed;
 	top:10px;
-	right:70px;
+	right:75px;
 }
 
 .wrapper-I{
@@ -650,6 +651,7 @@ body{
 .J{
 	position:fixed;
 	top:200px;
+	left:3px;
 }
 
 .v-line-J-m{
@@ -695,7 +697,7 @@ body{
 
 .K{
 	position:fixed;
-	left:150px;
+	left:144px;
 	top:200px;
 }
 
@@ -748,13 +750,13 @@ body{
 
 .L{
 	position:fixed;
-	left:260px;
+	left:262px;
 	top:200px;
 }
 
 .M{
 	position:fixed;
-	left:380px;
+	left:381px;
 	top:200px;
 }
 
