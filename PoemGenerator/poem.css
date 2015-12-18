@@ -1,0 +1,229 @@
+window{
+    height:1000px;
+}
+
+.button{
+    position:fixed;
+    width:48px;
+    height:48px;
+    background-size:48px 48px;
+    z-index:1;
+    top:46%;
+    cursor:pointer;
+
+}
+
+.flower{
+    /*width:48px;*/
+    /*height:48px;*/
+    background-image:url(flower.png);
+    /*background-size:48px 48px;*/
+    left:30%;
+}
+
+.bike{
+    /*width:55px;*/
+    /*height:35px;*/
+    background-image:url(bike.png);
+    /*background-size:55px 35px;*/
+    left:38%; 
+    /*border:2px solid black;*/
+}
+
+.sunflowerseed{
+    /*width:28px;*/
+    /*height:43px;*/
+    background-image:url(sunflowerseed.png);
+    /*background-size:28px 43px;*/
+    left:46%; 
+}
+
+.vase{
+    /*width:25px;*/
+    /*height:45px;*/
+    background-image:url(vase.png);
+    /*background-size:25px 45px;*/
+    left:54%; 
+}
+
+.steel{
+    /*width:42px;*/
+    /*height:40px;*/
+    background-image:url(steel.png);
+    /*background-size:42px 40px;*/
+    left:63%; 
+}
+
+.property{
+    width:48px;
+    height:48px;
+    background-size:48px 48px;
+    font-size:15px;
+    position:fixed;
+    vertical-align:middle;
+    line-height:48px;
+    text-align:center;
+    font-family:helvetica,sans-serif;
+    color:red;
+    top:46%;
+}
+
+.flowertext{
+    left:370px;
+/*border:2px solid black;*/
+    
+}
+
+
+.biketext{
+    left:38%;
+    /*border:2px solid black;*/
+}
+
+.sunflowerseedtext{
+    left:46%;
+    /*border:2px solid black;*/
+}
+
+.vasetext{
+    left:54%;
+    /*border:2px solid black;*/
+}
+
+.steeltext{
+    left:63%;
+    /*border:2px solid black;*/
+}
+
+
+.intro{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color: #ff0000;
+    position:fixed;
+    left:47%;
+    top:90%;
+    border:solid 1px #000000;
+}
+
+.intro-text{
+    padding:20px;
+    font-size:25px;
+    font-family:helvetica,sans-serif;
+    color:red;
+    line-height:30px;
+    letter-spacing:1px;
+    word-spacing:2px;
+}
+
+.bar{
+    width:1px;
+    height:15px;
+    background-color: #000;
+    position:fixed;
+    top:330px;
+}
+
+.vertical1{
+    left:350px;
+}
+
+.vertical2{
+    left:440px;
+}
+
+.vertical3{
+    left:550px;
+}
+
+.vertical4{
+    left:640px;
+}
+
+.vertical5{
+    left:750px;
+}
+
+.vertical6{
+    left:860px;
+}
+
+.title{
+    font-family:helvetica,sans-serif;
+    color:red;
+    font-size:25px;
+    text-align:center;
+}
+
+.description{
+    padding:10px;
+    font-size:25px;
+    font-family:helvetica,sans-serif;
+    color:red;
+    line-height:30px;
+    letter-spacing:1px;
+    word-spacing:2px;
+}
+
+.img{
+    width:600px;
+    height:400px;
+    background-size:600px 400px;
+    position:fixed;
+    top:150px;
+    left:25%;
+    
+}
+
+.flower_jpg{
+    background-image:url(flower.jpg);
+}
+
+.bike_jpg{
+    background-image:url(bike.jpg);
+}
+
+.sunflowerseed_jpg{
+    background-image:url(sunflowerseed.jpg);
+
+}
+
+.vase_jpg{
+    background-image:url(vase.jpg);
+
+}
+
+.rebar_jpg{
+    background-image:url(rebar.jpg);
+
+}
+
+.elem{
+    position:fixed;
+    width:15px;
+    height:15px;
+    background-image:url(arrow.png);
+    background-size:15px 15px;
+    top:42%;
+}
+
+.arrow1{
+    left:31%;
+}
+
+.arrow2{
+    left:39%;
+}
+
+.arrow3{
+    left:47%;
+}
+
+.arrow4{
+    left:55%;
+}
+
+.arrow5{
+    left:64%;
+}

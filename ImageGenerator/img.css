@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 .square{
     font-size: 1rem; display: inline-block;
     height:150px;
