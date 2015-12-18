@@ -60,7 +60,7 @@ $(".flower").click(function(){
     if (flowerCheck == "long") {
         isClicked = true;
         $('.flower').css('background-image','none');
-        $('.floewrtext').html('');
+        $('.flowertext').html('');
         $('.flowertext').css('background-image', 'url(sunflowerseed.png)');
     } else if (flowerCheck == "right") {
          isClicked = true;
